@@ -1,0 +1,34 @@
+Hello World!!!
+Resources:
+[0m[1mprocs[0m[0m [0m[1m[36m-----------memory----------[0m[0m [0m[1m[35m---swap--[0m[0m [0m[1m[34m-----io----[0m[0m [0m[1m[32m-system--[0m[0m [0m[1m[31m------cpu-----[0m
+[0m[0m r  b   [0m[36;96mswpd   free   buff  cache[0m[0m   [0m[35;95msi   so[0m[0m    [0m[34;94mbi    bo[0m[0m   [0m[32;92min   cs[0m[0m [0m[31;91mus sy id wa st[0m
+[0m[0m 1  0      [0m[36;96m0  12684     95   1379[0m[0m    [0m[35;95m0    0[0m[0m    [0m[34;94m49    16[0m[0m  [0m[32;92m139  237[0m[0m  [0m[31;91m1  0 98  1  0[0m
+Addresses:
+[0m[37;97m1[0m[0m: [0m[1m[36mlo[0m[0m: <[0m[36mLOOPBACK,UP,LOWER_UP[0m[0m> mtu 65536 qdisc noqueue state [0m[36mUNKNOWN[0m group default qlen 1000[0m
+[0m    link/loopback 00:00:00:00:00:00 [0m[0mbrd [0m[2m00:00:00:00:00:00[0m
+[0m    [0m[0minet [0m[1m[33m127.0.0.1[0m[0m/[0m[1m[35m8[0m scope host lo[0m
+[0m       valid_lft forever preferred_lft forever[0m
+[0m    [0m[0minet6 [0m[33m::1[0m[0m/[0m[35m128[0m scope host [0m
+[0m       valid_lft forever preferred_lft forever[0m
+[0m[37;97m2[0m[0m: [0m[1m[32menp8s0[0m[0m: <[0m[36mBROADCAST,MULTICAST,UP,LOWER_UP[0m[0m> mtu 1500 qdisc fq_codel state [0m[1m[32mUP[0m group default qlen 1000[0m
+[0m    [0m[0mlink/ether [0m[35md4:5d:64:7c:3c:14[0m[0m brd [0m[2mff:ff:ff:ff:ff:ff[0m
+[0m    [0m[0minet [0m[1m[33m192.168.1.151[0m[0m/[0m[1m[35m24[0m [0m[0mbrd [0m[2m192.168.1.255 [0mscope global dynamic noprefixroute enp8s0[0m
+[0m       valid_lft 84690sec preferred_lft 84690sec[0m
+[0m    [0m[0minet6 [0m[33mfe80::cfeb:886a:b9ef:2dab[0m[0m/[0m[35m64[0m scope link noprefixroute [0m
+[0m       valid_lft forever preferred_lft forever[0m
+[0m[37;97m5[0m[0m: [0m[1m[32mdocker0[0m[0m: <[0m[36mBROADCAST,MULTICAST,UP,LOWER_UP[0m[0m> mtu 1500 qdisc noqueue state [0m[1m[32mUP[0m group default [0m
+[0m    [0m[0mlink/ether [0m[35m02:42:26:2b:4e:e2[0m[0m brd [0m[2mff:ff:ff:ff:ff:ff[0m
+[0m    [0m[0minet [0m[1m[33m172.17.0.1[0m[0m/[0m[1m[35m16[0m [0m[0mbrd [0m[2m172.17.255.255 [0mscope global docker0[0m
+[0m       valid_lft forever preferred_lft forever[0m
+[0m    [0m[0minet6 [0m[33mfe80::42:26ff:fe2b:4ee2[0m[0m/[0m[35m64[0m scope link [0m
+[0m       valid_lft forever preferred_lft forever[0m
+[0m[37;97m7[0m[0m: [0m[1m[32mveth0336d19@if6[0m[0m: <[0m[36mBROADCAST,MULTICAST,UP,LOWER_UP[0m[0m> mtu 1500 qdisc noqueue master [0m[44m[37mdocker0[0m[0m state [0m[1m[32mUP[0m group default [0m
+[0m    [0m[0mlink/ether [0m[35m82:d5:b1:9d:8d:24[0m[0m brd [0m[2mff:ff:ff:ff:ff:ff link-netn[0msid 0[0m
+[0m    [0m[0minet6 [0m[33mfe80::80d5:b1ff:fe9d:8d24[0m[0m/[0m[35m64[0m scope link [0m
+[0m       valid_lft forever preferred_lft forever[0m
+[0m[0mPING [0m[34mgoogle.com[0m[0m [0m([0m[34;94m172.217.10.142[0m) 56(84) bytes of data.[0m
+[0m64 bytes [0m[0mfrom [0m[34mlga34s16-in-f14.1e100.net[0m[0m [0m([0m[34;94m172.217.10.142[0m): [0m[0micmp_seq=[0m[33m1[0m [0m[0mttl=[0m[35m118[0m time=[0m[1m[32m3.42[0m[32m ms[0m
+[0m
+[0m[1m--- [0m[1m[34mgoogle.com[0m[1m ping statistics ---[0m
+[0m1 packets transmitted, 1 received, [0m[32m0% packet loss[0m, time [0m[1m[32m0[0m[32mms[0m
+[0m[0mrtt [0m[33;93mmin[0m[0m/[0m[34;94mavg[0m[0m/[0m[31;91mmax[0m[0m/[0m[35;95mmdev[0m [0m[0m= [0m[33;93m3.416[0m[0m/[0m[34;94m3.416[0m[0m/[0m[31;91m3.416[0m[0m/[0m[35;95m0.000[0m[32m ms[0m
